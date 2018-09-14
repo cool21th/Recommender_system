@@ -22,11 +22,18 @@ Personalized
 ex) Making supervised learning for recommendations
     
       Input X
-          User attributes: age, locations,..
+          User attributes: age, locations, gender, race, occupation, education level, ..
           Product attributes: screen resolution, weight, RAM, etc...
       Target Y
           buy the product or not
           rating the product
+          click on the article
+          sign up for the newsletter
+          
+      Model
+          Logistic Regression
+          Random Forestakfm
+            
           
 
 Markov Models
