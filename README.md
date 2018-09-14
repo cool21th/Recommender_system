@@ -35,7 +35,7 @@ Markov Models
 Page Ranks
 
 
-Hacker News Formula
+#### Hacker News Formula
 
 reference: [How Hacker News ranking really works: scoring, controversy, and penalties](https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html)
 
@@ -43,7 +43,7 @@ reference: [How Hacker News ranking really works: scoring, controversy, and pena
     gravity = 1.8
     penalty = multiploer to implement "business rules"
     
-Reddit Formula
+#### Reddit Formula
 
 reference: [reddit’s new comment sorting system](https://redditblog.com/2009/10/15/reddits-new-comment-sorting-system/)
 
@@ -51,4 +51,10 @@ reference: [reddit’s new comment sorting system](https://redditblog.com/2009/1
     log -> sublinear
     the more downvotes gets, the further scores goes down
     
+    
+#### Smoothing
+
+    1000 4 star ratings  -> 3.999
+    5 4 star ratings -> 3.83
+    one 4 star rating -> 3.5
     
