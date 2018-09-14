@@ -45,6 +45,8 @@ reference: [How Hacker News ranking really works: scoring, controversy, and pena
     
 Reddit Formula
 
+reference: [reddit’s new comment sorting system](https://redditblog.com/2009/10/15/reddits-new-comment-sorting-system/)
+
     score = sign(ups-downs) * log{max(1, |ups-downs|)} + age/45000
     log -> sublinear
     the more downvotes gets, the further scores goes down
