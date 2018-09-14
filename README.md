@@ -42,3 +42,11 @@ reference: [How Hacker News ranking really works: scoring, controversy, and pena
     score = (((ups - downs - 1)^0.8)/(age+2)^gravity) * penalty
     gravity = 1.8
     penalty = multiploer to implement "business rules"
+    
+Reddit Formula
+
+    score = sign(ups-downs) * log{max(1, |ups-downs|)} + age/45000
+    log -> sublinear
+    the more downvotes gets, the further scores goes down
+    
+    
